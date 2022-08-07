@@ -3,7 +3,7 @@
 ```
 # optionally create some new self signed certs
 cd redis
-bash gen-redis-cert.sh
+bash gen-redis-certs.sh
 cd ../
 
 # using the base image layer in the redis/tls cert directory
